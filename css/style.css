@@ -185,3 +185,47 @@ margin-top: 6px;
     }
 }
 
+
+.section-1 h3{
+    font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.row1{
+    display: flex;
+
+
+}
+.row1 a:hover{
+    background-color: #2a41e8;
+    color: white;
+    border-radius: 5px;
+
+
+}
+.row1-box{
+    text-decoration: none;
+    color: black;
+    padding: 49px 18px;
+    text-align: center;
+   
+  
+    
+}
+.number{
+    width: 40px;
+    color: #909090;
+    background: rgba(0, 0, 0, 0.06);
+    padding-left: 5px;
+    margin: 20px 43%;
+}
+.div3 h3{
+    font-size: 14px;
+   
+
+
+}
+.div3 p{
+    color: silver;
+}
