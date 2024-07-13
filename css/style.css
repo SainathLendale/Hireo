@@ -55,12 +55,6 @@
     display: flex;
 }
 
-.background-img{
-    background-image: url(..//img/home-background.jpg);
-    height: 600px;
-    
-
-}
 
 .user-img img{
     border-radius: 50%;
@@ -98,6 +92,27 @@
 margin-top: 6px;
 }
 
+
+
+/*  header  part section 1   */
+.background-img{
+    background-image: url(..//img/home-background.jpg);
+    height: 600px;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+
+    
+
+}
+
+@media (max-width:600px){
+    .background-img{
+        min-height: 60vh;
+        max-width: 100px;
+
+    }
+}
 
 .bgimg-row1{
      position: relative;
@@ -186,25 +201,30 @@ margin-top: 6px;
 }
 
 
+/* section 1  multipal boxes */
+
+.section-1{
+    padding-top:44px;
+}
 .section-1 h3{
     font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
     text-align: center;
 }
 
-.row1{
+.row{
     display: flex;
 
 
 }
-.row1 a:hover{
+.row a:hover{
     background-color: #2a41e8;
     color: white;
     border-radius: 5px;
 
 
 }
-.row1-box{
+.section1-row-box{
     text-decoration: none;
     color: black;
     padding: 49px 18px;
@@ -213,12 +233,24 @@ margin-top: 6px;
   
     
 }
-.number{
-    width: 40px;
+/* .number{ */
+    /* width: 40px;
     color: #909090;
     background: rgba(0, 0, 0, 0.06);
     padding-left: 5px;
     margin: 20px 43%;
+} */
+
+.number span{
+   
+    padding: 1px 7px;
+    font-size: 13px;
+    color: #909090;
+    background: rgba(0, 0, 0, 0.06);
+}
+ 
+.div1 i{
+    font-size: 30px;
 }
 .div3 h3{
     font-size: 14px;
