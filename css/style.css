@@ -97,7 +97,7 @@ margin-top: 6px;
 /*  header  part section 1   */
 .background-img{
     background-image: url(..//img/home-background.jpg);
-    height: 600px;
+    height: 583px;
     background-size: cover;
     /* background-attachment: fixed; */
     background-position: center;
@@ -204,7 +204,7 @@ margin-top: 6px;
 /* section 1  multipal boxes */
 
 .section-1{
-    padding-top:44px;
+    padding-top:23px;
 }
 .section-1 h3{
     font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -224,10 +224,14 @@ margin-top: 6px;
 
 
 }
+.di i:hover{
+    color: white;
+}
 .section1-row-box{
     text-decoration: none;
     color: black;
-    padding: 49px 18px;
+    /* padding: 49px 18px; */
+    padding: 20px 6px;
     text-align: center;
    
   
@@ -248,9 +252,15 @@ margin-top: 6px;
     color: #909090;
     background: rgba(0, 0, 0, 0.06);
 }
- 
+ .div1{
+    margin-bottom: 10px;
+ }
 .div1 i{
     font-size: 30px;
+    color: #2a41e8;
+}
+.div3{
+    margin-top: 15px;
 }
 .div3 h3{
     font-size: 14px;
@@ -260,4 +270,68 @@ margin-top: 6px;
 }
 .div3 p{
     color: silver;
+}
+
+
+
+
+
+
+
+/* section 2 features job */
+.section-2{
+   background: #f9f9f9;
+   width: 100%;
+    height: 600px;
+    background: silver;
+padding-top: 30px;
+margin-top: 65px;}
+.sec2-header a{
+    position: absolute;
+    right: 163px;
+}
+
+/* .sec2-container{
+    width: 80%;
+    background: white;
+    box-shadow: 00 00 4px silver;
+} */
+.section2-row{
+    display: flex;
+    width: 80%;
+    background: white;
+    box-shadow: 00 00 4px silver;
+
+}
+.sec2-row-img img{
+    border-radius: 20px / 30px;
+    margin-top: 4px;
+
+}
+.sec2-row-name h3{
+    font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top:0px;
+
+    color: #333;
+   text-decoration: none;
+
+}
+.sec2-uldiv ul{
+    display: inline-flex;
+    list-style-type: none;
+   
+    gap: 45px;
+}
+.sec2-uldiv ul li{
+    color: #777;
+}
+
+
+.sec2-row-button button{
+    border-radius: 5px;
+    border: none;
+    padding: 6px 12px;
+     position: relative;
 }
