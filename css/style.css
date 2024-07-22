@@ -280,10 +280,10 @@ margin-top: 6px;
 
 /* section 2 features job */
 .section-2{
-   background: #f9f9f9;
+    background: #f9f9f9;
    width: 100%;
     height: 600px;
-    background: silver;
+   
 padding-top: 30px;
 margin-top: 65px;}
 .sec2-header a{
@@ -305,14 +305,20 @@ margin-top: 65px;}
 }
 .sec2-row-img img{
     border-radius: 20px / 30px;
-    margin-top: 4px;
+    
+    margin-left: 23px;
+    margin-top: 10px;
 
 }
 .sec2-row-name h3{
     font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 28px;
     margin-top:0px;
+
+    position: relative;
+    left: 31px;
+    top: 8px;
 
     color: #333;
    text-decoration: none;
@@ -328,7 +334,12 @@ margin-top: 65px;}
     color: #777;
 }
 
+.sec2-row-button{
+    position: relative;
+    left: 348px;
+    top: 15px;
 
+}
 .sec2-row-button button{
     border-radius: 5px;
     border: none;
