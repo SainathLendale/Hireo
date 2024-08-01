@@ -1,0 +1,46 @@
+.container{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    border: 2px solid black;
+    border-radius: 5px;
+    border-color: rgb(99, 99, 99);
+    box-shadow: 2px 2px 15px rgb(99, 99, 99);
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.img1{
+    border-radius: 200px;
+    width: 130px;
+    margin: 5px;
+}
+.one{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+.txt{
+    color: rgb(160, 159, 159);
+}
+.col2{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(200, 199, 199);
+}
+.data{
+    display: inline-block;
+    margin: 10px;
+}
+.input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+    background-color: rgb(71, 71, 219);
+}
